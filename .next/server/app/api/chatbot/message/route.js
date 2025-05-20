@@ -1,0 +1,176 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "app/api/chatbot/message/route";
+exports.ids = ["app/api/chatbot/message/route"];
+exports.modules = {
+
+/***/ "next/dist/compiled/next-server/app-route.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-route.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/app-route.runtime.dev.js");
+
+/***/ }),
+
+/***/ "buffer":
+/*!*************************!*\
+  !*** external "buffer" ***!
+  \*************************/
+/***/ ((module) => {
+
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "https":
+/*!************************!*\
+  !*** external "https" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("https");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "punycode":
+/*!***************************!*\
+  !*** external "punycode" ***!
+  \***************************/
+/***/ ((module) => {
+
+module.exports = require("punycode");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+module.exports = require("tls");
+
+/***/ }),
+
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/***/ ((module) => {
+
+module.exports = require("url");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("zlib");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Fchatbot%2Fmessage%2Froute&page=%2Fapi%2Fchatbot%2Fmessage%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fchatbot%2Fmessage%2Froute.ts&appDir=C%3A%5Cxampp%5Chtdocs%5CnextBaran%5Csrc%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5Cxampp%5Chtdocs%5CnextBaran&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Fchatbot%2Fmessage%2Froute&page=%2Fapi%2Fchatbot%2Fmessage%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fchatbot%2Fmessage%2Froute.ts&appDir=C%3A%5Cxampp%5Chtdocs%5CnextBaran%5Csrc%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5Cxampp%5Chtdocs%5CnextBaran&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   headerHooks: () => (/* binding */ headerHooks),\n/* harmony export */   originalPathname: () => (/* binding */ originalPathname),\n/* harmony export */   patchFetch: () => (/* binding */ patchFetch),\n/* harmony export */   requestAsyncStorage: () => (/* binding */ requestAsyncStorage),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   serverHooks: () => (/* binding */ serverHooks),\n/* harmony export */   staticGenerationAsyncStorage: () => (/* binding */ staticGenerationAsyncStorage),\n/* harmony export */   staticGenerationBailout: () => (/* binding */ staticGenerationBailout)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/app-route/module.compiled */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-route/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(rsc)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/server/lib/patch-fetch */ \"(rsc)/./node_modules/next/dist/server/lib/patch-fetch.js\");\n/* harmony import */ var next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var C_xampp_htdocs_nextBaran_src_app_api_chatbot_message_route_ts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/app/api/chatbot/message/route.ts */ \"(rsc)/./src/app/api/chatbot/message/route.ts\");\n\n\n\n\n// We inject the nextConfigOutput here so that we can use them in the route\n// module.\nconst nextConfigOutput = \"\"\nconst routeModule = new next_dist_server_future_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppRouteRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_ROUTE,\n        page: \"/api/chatbot/message/route\",\n        pathname: \"/api/chatbot/message\",\n        filename: \"route\",\n        bundlePath: \"app/api/chatbot/message/route\"\n    },\n    resolvedPagePath: \"C:\\\\xampp\\\\htdocs\\\\nextBaran\\\\src\\\\app\\\\api\\\\chatbot\\\\message\\\\route.ts\",\n    nextConfigOutput,\n    userland: C_xampp_htdocs_nextBaran_src_app_api_chatbot_message_route_ts__WEBPACK_IMPORTED_MODULE_3__\n});\n// Pull out the exports that we need to expose from the module. This should\n// be eliminated when we've moved the other routes to the new format. These\n// are used to hook into the route.\nconst { requestAsyncStorage, staticGenerationAsyncStorage, serverHooks, headerHooks, staticGenerationBailout } = routeModule;\nconst originalPathname = \"/api/chatbot/message/route\";\nfunction patchFetch() {\n    return (0,next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__.patchFetch)({\n        serverHooks,\n        staticGenerationAsyncStorage\n    });\n}\n\n\n//# sourceMappingURL=app-route.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIuanM/bmFtZT1hcHAlMkZhcGklMkZjaGF0Ym90JTJGbWVzc2FnZSUyRnJvdXRlJnBhZ2U9JTJGYXBpJTJGY2hhdGJvdCUyRm1lc3NhZ2UlMkZyb3V0ZSZhcHBQYXRocz0mcGFnZVBhdGg9cHJpdmF0ZS1uZXh0LWFwcC1kaXIlMkZhcGklMkZjaGF0Ym90JTJGbWVzc2FnZSUyRnJvdXRlLnRzJmFwcERpcj1DJTNBJTVDeGFtcHAlNUNodGRvY3MlNUNuZXh0QmFyYW4lNUNzcmMlNUNhcHAmcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyZyb290RGlyPUMlM0ElNUN4YW1wcCU1Q2h0ZG9jcyU1Q25leHRCYXJhbiZpc0Rldj10cnVlJnRzY29uZmlnUGF0aD10c2NvbmZpZy5qc29uJmJhc2VQYXRoPSZhc3NldFByZWZpeD0mbmV4dENvbmZpZ091dHB1dD0mcHJlZmVycmVkUmVnaW9uPSZtaWRkbGV3YXJlQ29uZmlnPWUzMCUzRCEiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBc0c7QUFDdkM7QUFDYztBQUN1QjtBQUNwRztBQUNBO0FBQ0E7QUFDQSx3QkFBd0IsZ0hBQW1CO0FBQzNDO0FBQ0EsY0FBYyx5RUFBUztBQUN2QjtBQUNBO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTDtBQUNBO0FBQ0EsWUFBWTtBQUNaLENBQUM7QUFDRDtBQUNBO0FBQ0E7QUFDQSxRQUFRLHVHQUF1RztBQUMvRztBQUNBO0FBQ0EsV0FBVyw0RUFBVztBQUN0QjtBQUNBO0FBQ0EsS0FBSztBQUNMO0FBQzZKOztBQUU3SiIsInNvdXJjZXMiOlsid2VicGFjazovL2JhcmFuZ3VpZGUvPzc4NDQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQXBwUm91dGVSb3V0ZU1vZHVsZSB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1tb2R1bGVzL2FwcC1yb3V0ZS9tb2R1bGUuY29tcGlsZWRcIjtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1raW5kXCI7XG5pbXBvcnQgeyBwYXRjaEZldGNoIGFzIF9wYXRjaEZldGNoIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvbGliL3BhdGNoLWZldGNoXCI7XG5pbXBvcnQgKiBhcyB1c2VybGFuZCBmcm9tIFwiQzpcXFxceGFtcHBcXFxcaHRkb2NzXFxcXG5leHRCYXJhblxcXFxzcmNcXFxcYXBwXFxcXGFwaVxcXFxjaGF0Ym90XFxcXG1lc3NhZ2VcXFxccm91dGUudHNcIjtcbi8vIFdlIGluamVjdCB0aGUgbmV4dENvbmZpZ091dHB1dCBoZXJlIHNvIHRoYXQgd2UgY2FuIHVzZSB0aGVtIGluIHRoZSByb3V0ZVxuLy8gbW9kdWxlLlxuY29uc3QgbmV4dENvbmZpZ091dHB1dCA9IFwiXCJcbmNvbnN0IHJvdXRlTW9kdWxlID0gbmV3IEFwcFJvdXRlUm91dGVNb2R1bGUoe1xuICAgIGRlZmluaXRpb246IHtcbiAgICAgICAga2luZDogUm91dGVLaW5kLkFQUF9ST1VURSxcbiAgICAgICAgcGFnZTogXCIvYXBpL2NoYXRib3QvbWVzc2FnZS9yb3V0ZVwiLFxuICAgICAgICBwYXRobmFtZTogXCIvYXBpL2NoYXRib3QvbWVzc2FnZVwiLFxuICAgICAgICBmaWxlbmFtZTogXCJyb3V0ZVwiLFxuICAgICAgICBidW5kbGVQYXRoOiBcImFwcC9hcGkvY2hhdGJvdC9tZXNzYWdlL3JvdXRlXCJcbiAgICB9LFxuICAgIHJlc29sdmVkUGFnZVBhdGg6IFwiQzpcXFxceGFtcHBcXFxcaHRkb2NzXFxcXG5leHRCYXJhblxcXFxzcmNcXFxcYXBwXFxcXGFwaVxcXFxjaGF0Ym90XFxcXG1lc3NhZ2VcXFxccm91dGUudHNcIixcbiAgICBuZXh0Q29uZmlnT3V0cHV0LFxuICAgIHVzZXJsYW5kXG59KTtcbi8vIFB1bGwgb3V0IHRoZSBleHBvcnRzIHRoYXQgd2UgbmVlZCB0byBleHBvc2UgZnJvbSB0aGUgbW9kdWxlLiBUaGlzIHNob3VsZFxuLy8gYmUgZWxpbWluYXRlZCB3aGVuIHdlJ3ZlIG1vdmVkIHRoZSBvdGhlciByb3V0ZXMgdG8gdGhlIG5ldyBmb3JtYXQuIFRoZXNlXG4vLyBhcmUgdXNlZCB0byBob29rIGludG8gdGhlIHJvdXRlLlxuY29uc3QgeyByZXF1ZXN0QXN5bmNTdG9yYWdlLCBzdGF0aWNHZW5lcmF0aW9uQXN5bmNTdG9yYWdlLCBzZXJ2ZXJIb29rcywgaGVhZGVySG9va3MsIHN0YXRpY0dlbmVyYXRpb25CYWlsb3V0IH0gPSByb3V0ZU1vZHVsZTtcbmNvbnN0IG9yaWdpbmFsUGF0aG5hbWUgPSBcIi9hcGkvY2hhdGJvdC9tZXNzYWdlL3JvdXRlXCI7XG5mdW5jdGlvbiBwYXRjaEZldGNoKCkge1xuICAgIHJldHVybiBfcGF0Y2hGZXRjaCh7XG4gICAgICAgIHNlcnZlckhvb2tzLFxuICAgICAgICBzdGF0aWNHZW5lcmF0aW9uQXN5bmNTdG9yYWdlXG4gICAgfSk7XG59XG5leHBvcnQgeyByb3V0ZU1vZHVsZSwgcmVxdWVzdEFzeW5jU3RvcmFnZSwgc3RhdGljR2VuZXJhdGlvbkFzeW5jU3RvcmFnZSwgc2VydmVySG9va3MsIGhlYWRlckhvb2tzLCBzdGF0aWNHZW5lcmF0aW9uQmFpbG91dCwgb3JpZ2luYWxQYXRobmFtZSwgcGF0Y2hGZXRjaCwgIH07XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWFwcC1yb3V0ZS5qcy5tYXAiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Fchatbot%2Fmessage%2Froute&page=%2Fapi%2Fchatbot%2Fmessage%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fchatbot%2Fmessage%2Froute.ts&appDir=C%3A%5Cxampp%5Chtdocs%5CnextBaran%5Csrc%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5Cxampp%5Chtdocs%5CnextBaran&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/api/chatbot/message/route.ts":
+/*!**********************************************!*\
+  !*** ./src/app/api/chatbot/message/route.ts ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   POST: () => (/* binding */ POST)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/web/exports/next-response */ \"(rsc)/./node_modules/next/dist/server/web/exports/next-response.js\");\n/* harmony import */ var _google_generative_ai__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @google/generative-ai */ \"(rsc)/./node_modules/@google/generative-ai/dist/index.mjs\");\n/* harmony import */ var _lib_supabase__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/lib/supabase */ \"(rsc)/./src/lib/supabase.ts\");\n\n\n\n// Initialize Gemini AI\nconst genAI = new _google_generative_ai__WEBPACK_IMPORTED_MODULE_1__.GoogleGenerativeAI(process.env.GEMINI_API_KEY || \"\");\nconst model = genAI.getGenerativeModel({\n    model: \"gemini-2.0-flash\"\n});\n// Function to get context from database\nasync function getDatabaseContext() {\n    try {\n        // Fetch services from Supabase\n        const { data: services, error: servicesError } = await _lib_supabase__WEBPACK_IMPORTED_MODULE_2__.supabase.from(\"services\").select(\"*\");\n        // Fetch FAQs from Supabase\n        const { data: faqs, error: faqsError } = await _lib_supabase__WEBPACK_IMPORTED_MODULE_2__.supabase.from(\"faqs\").select(\"*\");\n        if (servicesError || faqsError) {\n            console.error(\"Error fetching context:\", servicesError || faqsError);\n            return \"\";\n        }\n        let context = \"Here's information about our barangay services and frequently asked questions:\\n\\n\";\n        context += \"SERVICES:\\n\";\n        services?.forEach((service)=>{\n            context += `Service: ${service.title}\\nRequirements: ${service.requirements}\\nFee: ${service.price}\\nDuration: ${service.duration}\\n\\n`;\n        });\n        context += \"FREQUENTLY ASKED QUESTIONS:\\n\";\n        faqs?.forEach((faq)=>{\n            context += `Q: ${faq.question}\\nA: ${faq.answer}\\n\\n`;\n        });\n        return context;\n    } catch (error) {\n        console.error(\"Error getting database context:\", error);\n        return \"\";\n    }\n}\n// Function to get recent conversation history\nasync function getConversationHistory(limit = 5) {\n    try {\n        const { data: messages, error } = await _lib_supabase__WEBPACK_IMPORTED_MODULE_2__.supabase.from(\"messages\").select(\"*\").order(\"created_at\", {\n            ascending: false\n        }).limit(limit);\n        if (error) {\n            console.error(\"Error fetching conversation history:\", error);\n            return [];\n        }\n        return messages?.reverse() || [];\n    } catch (error) {\n        console.error(\"Error getting conversation history:\", error);\n        return [];\n    }\n}\n// Function to clean response text\nfunction cleanResponseText(text) {\n    return text.replace(/\\*/g, \"\");\n}\nasync function POST(request) {\n    try {\n        const { message } = await request.json();\n        if (!message) {\n            return next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_0__[\"default\"].json({\n                error: \"Message is required\"\n            }, {\n                status: 400\n            });\n        }\n        const databaseContext = await getDatabaseContext();\n        const conversationHistory = await getConversationHistory();\n        // Build conversation history string\n        let conversationContext = \"\";\n        if (conversationHistory.length > 0) {\n            conversationContext = \"Previous conversation:\\n\";\n            conversationHistory.forEach((msg)=>{\n                conversationContext += `${msg.sender === \"user\" ? \"User\" : \"Assistant\"}: ${msg.content}\\n`;\n            });\n            conversationContext += \"\\n\";\n        }\n        const systemPrompt = `You are BaranGuide, a helpful assistant for barangay-related inquiries in the Philippines. \nYou help citizens navigate barangay services, requirements, fees, and procedures.\nYou should be polite, informative, and provide specific information about barangay services.\nIf you don't know the answer to a question, please say so and suggest they visit the barangay office.\nUse Filipino phrases occasionally to sound more friendly and approachable. But answer in English if the question is in English.\nKeep your answers concise and directly address the user's question.\nYour responses should be helpful for Filipino citizens who are trying to navigate barangay procedures.\n\nBelow is information about the specific services and FAQs available in this barangay:\n\n${databaseContext}\n\n${conversationContext}\n\nPlease respond to the following message from a citizen:`;\n        const fullPrompt = `${systemPrompt}\\n\\nUser: ${message}`;\n        try {\n            const result = await model.generateContent(fullPrompt);\n            const response = cleanResponseText(result.response.text());\n            // Save the conversation to Supabase\n            await _lib_supabase__WEBPACK_IMPORTED_MODULE_2__.supabase.from(\"messages\").insert([\n                {\n                    sender: \"user\",\n                    content: message\n                },\n                {\n                    sender: \"bot\",\n                    content: response\n                }\n            ]);\n            return next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_0__[\"default\"].json({\n                data: {\n                    response\n                }\n            });\n        } catch (aiError) {\n            console.error(\"Error with Gemini API:\", aiError);\n            const fallbackResponse = \"I'm sorry, I'm having trouble connecting to my knowledge base right now. Please try again in a moment or visit your local Barangay office for immediate assistance.\";\n            // Save the error conversation to Supabase\n            await _lib_supabase__WEBPACK_IMPORTED_MODULE_2__.supabase.from(\"messages\").insert([\n                {\n                    sender: \"user\",\n                    content: message\n                },\n                {\n                    sender: \"bot\",\n                    content: fallbackResponse,\n                    is_error: true\n                }\n            ]);\n            return next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_0__[\"default\"].json({\n                data: {\n                    response: fallbackResponse\n                }\n            });\n        }\n    } catch (error) {\n        console.error(\"Error generating chat response:\", error);\n        return next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_0__[\"default\"].json({\n            error: \"Internal server error\"\n        }, {\n            status: 500\n        });\n    }\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2FwaS9jaGF0Ym90L21lc3NhZ2Uvcm91dGUudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUEyQztBQUNnQjtBQUNqQjtBQUUxQyx1QkFBdUI7QUFDdkIsTUFBTUcsUUFBUSxJQUFJRixxRUFBa0JBLENBQUNHLFFBQVFDLEdBQUcsQ0FBQ0MsY0FBYyxJQUFJO0FBQ25FLE1BQU1DLFFBQVFKLE1BQU1LLGtCQUFrQixDQUFDO0lBQUVELE9BQU87QUFBbUI7QUFFbkUsd0NBQXdDO0FBQ3hDLGVBQWVFO0lBQ2IsSUFBSTtRQUNGLCtCQUErQjtRQUMvQixNQUFNLEVBQUVDLE1BQU1DLFFBQVEsRUFBRUMsT0FBT0MsYUFBYSxFQUFFLEdBQUcsTUFBTVgsbURBQVFBLENBQzVEWSxJQUFJLENBQUMsWUFDTEMsTUFBTSxDQUFDO1FBRVYsMkJBQTJCO1FBQzNCLE1BQU0sRUFBRUwsTUFBTU0sSUFBSSxFQUFFSixPQUFPSyxTQUFTLEVBQUUsR0FBRyxNQUFNZixtREFBUUEsQ0FDcERZLElBQUksQ0FBQyxRQUNMQyxNQUFNLENBQUM7UUFFVixJQUFJRixpQkFBaUJJLFdBQVc7WUFDOUJDLFFBQVFOLEtBQUssQ0FBQywyQkFBMkJDLGlCQUFpQkk7WUFDMUQsT0FBTztRQUNUO1FBRUEsSUFBSUUsVUFBVTtRQUVkQSxXQUFXO1FBQ1hSLFVBQVVTLFFBQVFDLENBQUFBO1lBQ2hCRixXQUFXLENBQUMsU0FBUyxFQUFFRSxRQUFRQyxLQUFLLENBQUMsZ0JBQWdCLEVBQUVELFFBQVFFLFlBQVksQ0FBQyxPQUFPLEVBQUVGLFFBQVFHLEtBQUssQ0FBQyxZQUFZLEVBQUVILFFBQVFJLFFBQVEsQ0FBQyxJQUFJLENBQUM7UUFDekk7UUFFQU4sV0FBVztRQUNYSCxNQUFNSSxRQUFRTSxDQUFBQTtZQUNaUCxXQUFXLENBQUMsR0FBRyxFQUFFTyxJQUFJQyxRQUFRLENBQUMsS0FBSyxFQUFFRCxJQUFJRSxNQUFNLENBQUMsSUFBSSxDQUFDO1FBQ3ZEO1FBRUEsT0FBT1Q7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TztRQUNkTSxRQUFRTixLQUFLLENBQUMsbUNBQW1DQTtRQUNqRCxPQUFPWixrRkFBWUEsQ0FBQ3lDLElBQUksQ0FDdEI7WUFBRTdCLE9BQU87UUFBd0IsR0FDakM7WUFBRThCLFFBQVE7UUFBSTtJQUVsQjtBQUNGIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYmFyYW5ndWlkZS8uL3NyYy9hcHAvYXBpL2NoYXRib3QvbWVzc2FnZS9yb3V0ZS50cz8xYzEyIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5leHRSZXNwb25zZSB9IGZyb20gJ25leHQvc2VydmVyJztcbmltcG9ydCB7IEdvb2dsZUdlbmVyYXRpdmVBSSB9IGZyb20gJ0Bnb29nbGUvZ2VuZXJhdGl2ZS1haSc7XG5pbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gJ0AvbGliL3N1cGFiYXNlJztcblxuLy8gSW5pdGlhbGl6ZSBHZW1pbmkgQUlcbmNvbnN0IGdlbkFJID0gbmV3IEdvb2dsZUdlbmVyYXRpdmVBSShwcm9jZXNzLmVudi5HRU1JTklfQVBJX0tFWSB8fCAnJyk7XG5jb25zdCBtb2RlbCA9IGdlbkFJLmdldEdlbmVyYXRpdmVNb2RlbCh7IG1vZGVsOiAnZ2VtaW5pLTIuMC1mbGFzaCcgfSk7XG5cbi8vIEZ1bmN0aW9uIHRvIGdldCBjb250ZXh0IGZyb20gZGF0YWJhc2VcbmFzeW5jIGZ1bmN0aW9uIGdldERhdGFiYXNlQ29udGV4dCgpIHtcbiAgdHJ5IHtcbiAgICAvLyBGZXRjaCBzZXJ2aWNlcyBmcm9tIFN1cGFiYXNlXG4gICAgY29uc3QgeyBkYXRhOiBzZXJ2aWNlcywgZXJyb3I6IHNlcnZpY2VzRXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlXG4gICAgICAuZnJvbSgnc2VydmljZXMnKVxuICAgICAgLnNlbGVjdCgnKicpO1xuXG4gICAgLy8gRmV0Y2ggRkFRcyBmcm9tIFN1cGFiYXNlXG4gICAgY29uc3QgeyBkYXRhOiBmYXFzLCBlcnJvcjogZmFxc0Vycm9yIH0gPSBhd2FpdCBzdXBhYmFzZVxuICAgICAgLmZyb20oJ2ZhcXMnKVxuICAgICAgLnNlbGVjdCgnKicpO1xuXG4gICAgaWYgKHNlcnZpY2VzRXJyb3IgfHwgZmFxc0Vycm9yKSB7XG4gICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBmZXRjaGluZyBjb250ZXh0OicsIHNlcnZpY2VzRXJyb3IgfHwgZmFxc0Vycm9yKTtcbiAgICAgIHJldHVybiBcIlwiO1xuICAgIH1cblxuICAgIGxldCBjb250ZXh0ID0gXCJIZXJlJ3MgaW5mb3JtYXRpb24gYWJvdXQgb3VyIGJhcmFuZ2F5IHNlcnZpY2VzIGFuZCBmcmVxdWVudGx5IGFza2VkIHF1ZXN0aW9uczpcXG5cXG5cIjtcblxuICAgIGNvbnRleHQgKz0gXCJTRVJWSUNFUzpcXG5cIjtcbiAgICBzZXJ2aWNlcz8uZm9yRWFjaChzZXJ2aWNlID0+IHtcbiAgICAgIGNvbnRleHQgKz0gYFNlcnZpY2U6ICR7c2VydmljZS50aXRsZX1cXG5SZXF1aXJlbWVudHM6ICR7c2VydmljZS5yZXF1aXJlbWVudHN9XFxuRmVlOiAke3NlcnZpY2UucHJpY2V9XFxuRHVyYXRpb246ICR7c2VydmljZS5kdXJhdGlvbn1cXG5cXG5gO1xuICAgIH0pO1xuXG4gICAgY29udGV4dCArPSBcIkZSRVFVRU5UTFkgQVNLRUQgUVVFU1RJT05TOlxcblwiO1xuICAgIGZhcXM/LmZvckVhY2goZmFxID0+IHtcbiAgICAgIGNvbnRleHQgKz0gYFE6ICR7ZmFxLnF1ZXN0aW9ufVxcbkE6ICR7ZmFxLmFuc3dlcn1cXG5cXG5gO1xuICAgIH0pO1xuXG4gICAgcmV0dXJuIGNvbnRleHQ7XG4gIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgY29uc29sZS5lcnJvcignRXJyb3IgZ2V0dGluZyBkYXRhYmFzZSBjb250ZXh0OicsIGVycm9yKTtcbiAgICByZXR1cm4gXCJcIjtcbiAgfVxufVxuXG4vLyBGdW5jdGlvbiB0byBnZXQgcmVjZW50IGNvbnZlcnNhdGlvbiBoaXN0b3J5XG5hc3luYyBmdW5jdGlvbiBnZXRDb252ZXJzYXRpb25IaXN0b3J5KGxpbWl0ID0gNSkge1xuICB0cnkge1xuICAgIGNvbnN0IHsgZGF0YTogbWVzc2FnZXMsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZVxuICAgICAgLmZyb20oJ21lc3NhZ2VzJylcbiAgICAgIC5zZWxlY3QoJyonKVxuICAgICAgLm9yZGVyKCdjcmVhdGVkX2F0JywgeyBhc2NlbmRpbmc6IGZhbHNlIH0pXG4gICAgICAubGltaXQobGltaXQpO1xuXG4gICAgaWYgKGVycm9yKSB7XG4gICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBmZXRjaGluZyBjb252ZXJzYXRpb24gaGlzdG9yeTonLCBlcnJvcik7XG4gICAgICByZXR1cm4gW107XG4gICAgfVxuXG4gICAgcmV0dXJuIG1lc3NhZ2VzPy5yZXZlcnNlKCkgfHwgW107XG4gIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgY29uc29sZS5lcnJvcignRXJyb3IgZ2V0dGluZyBjb252ZXJzYXRpb24gaGlzdG9yeTonLCBlcnJvcik7XG4gICAgcmV0dXJuIFtdO1xuICB9XG59XG5cbi8vIEZ1bmN0aW9uIHRvIGNsZWFuIHJlc3BvbnNlIHRleHRcbmZ1bmN0aW9uIGNsZWFuUmVzcG9uc2VUZXh0KHRleHQ6IHN0cmluZyk6IHN0cmluZyB7XG4gIHJldHVybiB0ZXh0LnJlcGxhY2UoL1xcKi9nLCAnJyk7XG59XG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBQT1NUKHJlcXVlc3Q6IFJlcXVlc3QpIHtcbiAgdHJ5IHtcbiAgICBjb25zdCB7IG1lc3NhZ2UgfSA9IGF3YWl0IHJlcXVlc3QuanNvbigpO1xuXG4gICAgaWYgKCFtZXNzYWdlKSB7XG4gICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oXG4gICAgICAgIHsgZXJyb3I6ICdNZXNzYWdlIGlzIHJlcXVpcmVkJyB9LFxuICAgICAgICB7IHN0YXR1czogNDAwIH1cbiAgICAgICk7XG4gICAgfVxuXG4gICAgY29uc3QgZGF0YWJhc2VDb250ZXh0ID0gYXdhaXQgZ2V0RGF0YWJhc2VDb250ZXh0KCk7XG4gICAgY29uc3QgY29udmVyc2F0aW9uSGlzdG9yeSA9IGF3YWl0IGdldENvbnZlcnNhdGlvbkhpc3RvcnkoKTtcblxuICAgIC8vIEJ1aWxkIGNvbnZlcnNhdGlvbiBoaXN0b3J5IHN0cmluZ1xuICAgIGxldCBjb252ZXJzYXRpb25Db250ZXh0ID0gJyc7XG4gICAgaWYgKGNvbnZlcnNhdGlvbkhpc3RvcnkubGVuZ3RoID4gMCkge1xuICAgICAgY29udmVyc2F0aW9uQ29udGV4dCA9IFwiUHJldmlvdXMgY29udmVyc2F0aW9uOlxcblwiO1xuICAgICAgY29udmVyc2F0aW9uSGlzdG9yeS5mb3JFYWNoKG1zZyA9PiB7XG4gICAgICAgIGNvbnZlcnNhdGlvbkNvbnRleHQgKz0gYCR7bXNnLnNlbmRlciA9PT0gJ3VzZXInID8gJ1VzZXInIDogJ0Fzc2lzdGFudCd9OiAke21zZy5jb250ZW50fVxcbmA7XG4gICAgICB9KTtcbiAgICAgIGNvbnZlcnNhdGlvbkNvbnRleHQgKz0gXCJcXG5cIjtcbiAgICB9XG5cbiAgICBjb25zdCBzeXN0ZW1Qcm9tcHQgPSBgWW91IGFyZSBCYXJhbkd1aWRlLCBhIGhlbHBmdWwgYXNzaXN0YW50IGZvciBiYXJhbmdheS1yZWxhdGVkIGlucXVpcmllcyBpbiB0aGUgUGhpbGlwcGluZXMuIFxuWW91IGhlbHAgY2l0aXplbnMgbmF2aWdhdGUgYmFyYW5nYXkgc2VydmljZXMsIHJlcXVpcmVtZW50cywgZmVlcywgYW5kIHByb2NlZHVyZXMuXG5Zb3Ugc2hvdWxkIGJlIHBvbGl0ZSwgaW5mb3JtYXRpdmUsIGFuZCBwcm92aWRlIHNwZWNpZmljIGluZm9ybWF0aW9uIGFib3V0IGJhcmFuZ2F5IHNlcnZpY2VzLlxuSWYgeW91IGRvbid0IGtub3cgdGhlIGFuc3dlciB0byBhIHF1ZXN0aW9uLCBwbGVhc2Ugc2F5IHNvIGFuZCBzdWdnZXN0IHRoZXkgdmlzaXQgdGhlIGJhcmFuZ2F5IG9mZmljZS5cblVzZSBGaWxpcGlubyBwaHJhc2VzIG9jY2FzaW9uYWxseSB0byBzb3VuZCBtb3JlIGZyaWVuZGx5IGFuZCBhcHByb2FjaGFibGUuIEJ1dCBhbnN3ZXIgaW4gRW5nbGlzaCBpZiB0aGUgcXVlc3Rpb24gaXMgaW4gRW5nbGlzaC5cbktlZXAgeW91ciBhbnN3ZXJzIGNvbmNpc2UgYW5kIGRpcmVjdGx5IGFkZHJlc3MgdGhlIHVzZXIncyBxdWVzdGlvbi5cbllvdXIgcmVzcG9uc2VzIHNob3VsZCBiZSBoZWxwZnVsIGZvciBGaWxpcGlubyBjaXRpemVucyB3aG8gYXJlIHRyeWluZyB0byBuYXZpZ2F0ZSBiYXJhbmdheSBwcm9jZWR1cmVzLlxuXG5CZWxvdyBpcyBpbmZvcm1hdGlvbiBhYm91dCB0aGUgc3BlY2lmaWMgc2VydmljZXMgYW5kIEZBUXMgYXZhaWxhYmxlIGluIHRoaXMgYmFyYW5nYXk6XG5cbiR7ZGF0YWJhc2VDb250ZXh0fVxuXG4ke2NvbnZlcnNhdGlvbkNvbnRleHR9XG5cblBsZWFzZSByZXNwb25kIHRvIHRoZSBmb2xsb3dpbmcgbWVzc2FnZSBmcm9tIGEgY2l0aXplbjpgO1xuXG4gICAgY29uc3QgZnVsbFByb21wdCA9IGAke3N5c3RlbVByb21wdH1cXG5cXG5Vc2VyOiAke21lc3NhZ2V9YDtcblxuICAgIHRyeSB7XG4gICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBtb2RlbC5nZW5lcmF0ZUNvbnRlbnQoZnVsbFByb21wdCk7XG4gICAgICBjb25zdCByZXNwb25zZSA9IGNsZWFuUmVzcG9uc2VUZXh0KHJlc3VsdC5yZXNwb25zZS50ZXh0KCkpO1xuXG4gICAgICAvLyBTYXZlIHRoZSBjb252ZXJzYXRpb24gdG8gU3VwYWJhc2VcbiAgICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oJ21lc3NhZ2VzJykuaW5zZXJ0KFtcbiAgICAgICAgeyBzZW5kZXI6ICd1c2VyJywgY29udGVudDogbWVzc2FnZSB9LFxuICAgICAgICB7IHNlbmRlcjogJ2JvdCcsIGNvbnRlbnQ6IHJlc3BvbnNlIH1cbiAgICAgIF0pO1xuXG4gICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oe1xuICAgICAgICBkYXRhOiB7IHJlc3BvbnNlIH1cbiAgICAgIH0pO1xuICAgIH0gY2F0Y2ggKGFpRXJyb3IpIHtcbiAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIHdpdGggR2VtaW5pIEFQSTonLCBhaUVycm9yKTtcblxuICAgICAgY29uc3QgZmFsbGJhY2tSZXNwb25zZSA9IFwiSSdtIHNvcnJ5LCBJJ20gaGF2aW5nIHRyb3VibGUgY29ubmVjdGluZyB0byBteSBrbm93bGVkZ2UgYmFzZSByaWdodCBub3cuIFBsZWFzZSB0cnkgYWdhaW4gaW4gYSBtb21lbnQgb3IgdmlzaXQgeW91ciBsb2NhbCBCYXJhbmdheSBvZmZpY2UgZm9yIGltbWVkaWF0ZSBhc3Npc3RhbmNlLlwiO1xuXG4gICAgICAvLyBTYXZlIHRoZSBlcnJvciBjb252ZXJzYXRpb24gdG8gU3VwYWJhc2VcbiAgICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oJ21lc3NhZ2VzJykuaW5zZXJ0KFtcbiAgICAgICAgeyBzZW5kZXI6ICd1c2VyJywgY29udGVudDogbWVzc2FnZSB9LFxuICAgICAgICB7IHNlbmRlcjogJ2JvdCcsIGNvbnRlbnQ6IGZhbGxiYWNrUmVzcG9uc2UsIGlzX2Vycm9yOiB0cnVlIH1cbiAgICAgIF0pO1xuXG4gICAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oe1xuICAgICAgICBkYXRhOiB7IHJlc3BvbnNlOiBmYWxsYmFja1Jlc3BvbnNlIH1cbiAgICAgIH0pO1xuICAgIH1cbiAgfSBjYXRjaCAoZXJyb3IpIHtcbiAgICBjb25zb2xlLmVycm9yKCdFcnJvciBnZW5lcmF0aW5nIGNoYXQgcmVzcG9uc2U6JywgZXJyb3IpO1xuICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbihcbiAgICAgIHsgZXJyb3I6ICdJbnRlcm5hbCBzZXJ2ZXIgZXJyb3InIH0sXG4gICAgICB7IHN0YXR1czogNTAwIH1cbiAgICApO1xuICB9XG59ICJdLCJuYW1lcyI6WyJOZXh0UmVzcG9uc2UiLCJHb29nbGVHZW5lcmF0aXZlQUkiLCJzdXBhYmFzZSIsImdlbkFJIiwicHJvY2VzcyIsImVudiIsIkdFTUlOSV9BUElfS0VZIiwibW9kZWwiLCJnZXRHZW5lcmF0aXZlTW9kZWwiLCJnZXREYXRhYmFzZUNvbnRleHQiLCJkYXRhIiwic2VydmljZXMiLCJlcnJvciIsInNlcnZpY2VzRXJyb3IiLCJmcm9tIiwic2VsZWN0IiwiZmFxcyIsImZhcXNFcnJvciIsImNvbnNvbGUiLCJjb250ZXh0IiwiZm9yRWFjaCIsInNlcnZpY2UiLCJ0aXRsZSIsInJlcXVpcmVtZW50cyIsInByaWNlIiwiZHVyYXRpb24iLCJmYXEiLCJxdWVzdGlvbiIsImFuc3dlciIsImdldENvbnZlcnNhdGlvbkhpc3RvcnkiLCJsaW1pdCIsIm1lc3NhZ2VzIiwib3JkZXIiLCJhc2NlbmRpbmciLCJyZXZlcnNlIiwiY2xlYW5SZXNwb25zZVRleHQiLCJ0ZXh0IiwicmVwbGFjZSIsIlBPU1QiLCJyZXF1ZXN0IiwibWVzc2FnZSIsImpzb24iLCJzdGF0dXMiLCJkYXRhYmFzZUNvbnRleHQiLCJjb252ZXJzYXRpb25IaXN0b3J5IiwiY29udmVyc2F0aW9uQ29udGV4dCIsImxlbmd0aCIsIm1zZyIsInNlbmRlciIsImNvbnRlbnQiLCJzeXN0ZW1Qcm9tcHQiLCJmdWxsUHJvbXB0IiwicmVzdWx0IiwiZ2VuZXJhdGVDb250ZW50IiwicmVzcG9uc2UiLCJpbnNlcnQiLCJhaUVycm9yIiwiZmFsbGJhY2tSZXNwb25zZSIsImlzX2Vycm9yIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/api/chatbot/message/route.ts\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/lib/supabase.ts":
+/*!*****************************!*\
+  !*** ./src/lib/supabase.ts ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   supabase: () => (/* binding */ supabase)\n/* harmony export */ });\n/* harmony import */ var _supabase_supabase_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @supabase/supabase-js */ \"(rsc)/./node_modules/@supabase/supabase-js/dist/module/index.js\");\n\nconst supabaseUrl = \"https://eonpmgddebdrepweoznd.supabase.co\";\nconst supabaseKey = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVvbnBtZ2RkZWJkcmVwd2Vvem5kIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc2NzAwMDcsImV4cCI6MjA2MzI0NjAwN30.Q6dU6LOsWDcG89sz06GtseJ9k0zc_qzy2Prt1opSzT4\";\nconst supabase = (0,_supabase_supabase_js__WEBPACK_IMPORTED_MODULE_0__.createClient)(supabaseUrl, supabaseKey);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvbGliL3N1cGFiYXNlLnRzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQW9EO0FBRXBELE1BQU1DLGNBQWNDLDBDQUFvQztBQUN4RCxNQUFNRyxjQUFjSCxrTkFBeUM7QUFFdEQsTUFBTUssV0FBV1AsbUVBQVlBLENBQUNDLGFBQWFJLGFBQVkiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9iYXJhbmd1aWRlLy4vc3JjL2xpYi9zdXBhYmFzZS50cz8wNmUxIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcydcclxuXHJcbmNvbnN0IHN1cGFiYXNlVXJsID0gcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfU1VQQUJBU0VfVVJMIVxyXG5jb25zdCBzdXBhYmFzZUtleSA9IHByb2Nlc3MuZW52Lk5FWFRfUFVCTElDX1NVUEFCQVNFX0FOT05fS0VZIVxyXG5cclxuZXhwb3J0IGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KHN1cGFiYXNlVXJsLCBzdXBhYmFzZUtleSkgIl0sIm5hbWVzIjpbImNyZWF0ZUNsaWVudCIsInN1cGFiYXNlVXJsIiwicHJvY2VzcyIsImVudiIsIk5FWFRfUFVCTElDX1NVUEFCQVNFX1VSTCIsInN1cGFiYXNlS2V5IiwiTkVYVF9QVUJMSUNfU1VQQUJBU0VfQU5PTl9LRVkiLCJzdXBhYmFzZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./src/lib/supabase.ts\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../../../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@supabase","vendor-chunks/@google"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Fchatbot%2Fmessage%2Froute&page=%2Fapi%2Fchatbot%2Fmessage%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fchatbot%2Fmessage%2Froute.ts&appDir=C%3A%5Cxampp%5Chtdocs%5CnextBaran%5Csrc%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5Cxampp%5Chtdocs%5CnextBaran&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();
