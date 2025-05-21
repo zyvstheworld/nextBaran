@@ -3,9 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-
-const ADMIN_USERNAME = "admin1";
-const ADMIN_PASSWORD = "admin321";
+import { supabase } from "@/lib/supabase";
 
 export default function AdminLogin() {
   const [username, setUsername] = useState("");
@@ -13,14 +11,27 @@ export default function AdminLogin() {
   const [error, setError] = useState("");
   const router = useRouter();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
-      // Store login state in localStorage/sessionStorage
+    try {
+      // Check credentials against users table
+      const { data, error } = await supabase
+        .from('users')
+        .select('*')
+        .eq('username', username)
+        .eq('password', password)
+        .single();
+
+      if (error || !data) {
+        setError("Invalid username or password");
+        return;
+      }
+
+      // Store login state
       localStorage.setItem("isAdminAuthenticated", "true");
       router.push("/admin/services");
-    } else {
-      setError("Invalid username or password");
+    } catch (error) {
+      setError("An error occurred during login");
     }
   };
 
@@ -31,26 +42,27 @@ export default function AdminLogin() {
         <Image
           src="/olongapo-seal.png"
           alt="Barangay Old Cabalan Seal"
-          fill
-          style={{ objectFit: "cover" }}
-          className="blur-l opacity-20"
+          width={950}
+          height={950}
+          style={{ objectFit: "contain" }}
+          className="blur-l opacity-10"
           priority
         />
       </div>
       {/* Login Card */}
-      <div className="relative z-10 bg-white rounded-xl shadow-lg p-10 w-full max-w-md flex flex-col items-center">
+      <div className="relative z-10 bg-white rounded-xl shadow-lg p-8 w-full max-w-sm flex flex-col items-center">
         <Image
           src="/baranguide-log.png"
           alt="Barangay Old Cabalan Seal"
-          width={80}
-          height={80}
+          width={100}
+          height={100}
           className="mb-4"
         />
         <Image
           src="/olongapo-seal.png"
           alt="BaranGuide Logo"
-          width={180}
-          height={40}
+          width={160}
+          height={20}
           className="mb-2"
         />
         <h2 className="text-3xl font-bold text-center text-[#5f3dc4] mt-2">BaranGuide</h2>
