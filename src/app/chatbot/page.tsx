@@ -28,6 +28,15 @@ export default function ChatbotPage() {
     ]);
   }, []);
 
+  useEffect(() => {
+    const setVh = () => {
+      document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
+    };
+    setVh();
+    window.addEventListener('resize', setVh);
+    return () => window.removeEventListener('resize', setVh);
+  }, []);
+
   // Function to scroll chat to bottom when new messages arrive
   const scrollToBottom = () => {
     setTimeout(() => {
@@ -183,11 +192,14 @@ export default function ChatbotPage() {
       <style jsx>{`
         .chat-container {
           width: 100%;
-          height: 100vh;
+          height: calc(var(--vh, 1vh) * 100);
+          min-height: 0;
           display: flex;
           flex-direction: column;
           background-color: white;
           position: relative;
+          max-width: 1200px;
+          margin: 0 auto;
         }
 
         .city-seal-background {
