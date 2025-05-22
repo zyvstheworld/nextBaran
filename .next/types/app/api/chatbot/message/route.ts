@@ -1,4 +1,4 @@
-// File: C:\xampp\htdocs\nextBaran\src\app\api\chatbot\message\route.ts
+// File: C:\xampp\htdocs\nextBaranGuide\src\app\api\chatbot\message\route.ts
 import * as entry from '../../../../../../src/app/api/chatbot/message/route.js'
 import type { NextRequest } from 'next/server.js'
 

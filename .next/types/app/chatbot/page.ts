@@ -1,4 +1,4 @@
-// File: C:\xampp\htdocs\nextBaran\src\app\chatbot\page.tsx
+// File: C:\xampp\htdocs\nextBaranGuide\src\app\chatbot\page.tsx
 import * as entry from '../../../../src/app/chatbot/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

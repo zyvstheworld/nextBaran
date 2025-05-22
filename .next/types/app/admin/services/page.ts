@@ -1,4 +1,4 @@
-// File: C:\xampp\htdocs\nextBaran\src\app\admin\services\page.tsx
+// File: C:\xampp\htdocs\nextBaranGuide\src\app\admin\services\page.tsx
 import * as entry from '../../../../../src/app/admin/services/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

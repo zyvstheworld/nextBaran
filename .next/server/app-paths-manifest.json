@@ -1,8 +1,7 @@
 {
-  "/not-found": "app/not-found.js",
   "/chatbot/page": "app/chatbot/page.js",
   "/api/chatbot/message/route": "app/api/chatbot/message/route.js",
   "/admin/login/page": "app/admin/login/page.js",
-  "/admin/services/page": "app/admin/services/page.js",
-  "/admin/faqs/page": "app/admin/faqs/page.js"
+  "/admin/faqs/page": "app/admin/faqs/page.js",
+  "/admin/services/page": "app/admin/services/page.js"
 }
