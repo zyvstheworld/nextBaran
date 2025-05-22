@@ -188,8 +188,6 @@ export default function ChatbotPage() {
           flex-direction: column;
           background-color: white;
           position: relative;
-          max-width: 1200px;
-          margin: 0 auto;
         }
 
         .city-seal-background {
@@ -208,7 +206,7 @@ export default function ChatbotPage() {
         }
 
         header {
-          padding: 0.75rem;
+          padding: 1rem;
           border-bottom: 1px solid #eaeaea;
           background-color: #ffffff;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -222,17 +220,15 @@ export default function ChatbotPage() {
 
         .mini-seal {
           margin-right: 8px;
-          width: auto;
-          height: auto;
         }
 
         .messages-container {
           flex: 1;
-          padding: 0.75rem;
+          padding: 1rem;
           overflow-y: auto;
           display: flex;
           flex-direction: column;
-          gap: 0.6rem;
+          gap: 0.8rem;
           background-color: #f8f9fa;
         }
 
@@ -250,11 +246,10 @@ export default function ChatbotPage() {
         }
 
         .message-content {
-          padding: 0.6rem 0.8rem;
+          padding: 0.8rem 1rem;
           border-radius: 12px;
-          max-width: 85%;
+          max-width: 80%;
           overflow-wrap: break-word;
-          font-size: 0.95rem;
         }
 
         .bot-message {
@@ -314,18 +309,18 @@ export default function ChatbotPage() {
 
         .input-area {
           display: flex;
-          padding: 0.75rem;
+          padding: 1rem;
           border-top: 1px solid #eaeaea;
           background-color: #ffffff;
         }
 
         input {
           flex: 1;
-          padding: 0.7rem 1rem;
+          padding: 0.8rem 1rem;
           border: 1px solid #e0e0e0;
           border-radius: 24px;
           outline: none;
-          font-size: 0.95rem;
+          font-size: 1rem;
         }
 
         input:focus {
@@ -333,9 +328,8 @@ export default function ChatbotPage() {
         }
 
         button {
-          width: 40px;
-          height: 40px;
-          min-width: 40px;
+          width: 44px;
+          height: 44px;
           border-radius: 50%;
           background-color: #4361ee;
           color: white;
@@ -363,58 +357,30 @@ export default function ChatbotPage() {
         }
 
         @media (max-width: 768px) {
-          header {
-            padding: 0.5rem;
+          .chat-container {
+            max-width: 100vw;
+            padding: 0;
           }
-
-          .mini-seal {
-            width: 120px;
-            height: 40px;
-          }
-
           .messages-container {
-            padding: 0.5rem;
-            gap: 0.5rem;
+            padding: 0.5rem 0.2rem;
           }
-
-          .message-content {
-            padding: 0.5rem 0.7rem;
-            max-width: 90%;
-            font-size: 0.9rem;
-          }
-
           .input-area {
-            padding: 0.5rem;
+            padding: 0.5rem 0.2rem;
           }
-
-          input {
-            padding: 0.6rem 0.8rem;
-            font-size: 0.9rem;
-          }
-
-          button {
-            width: 36px;
-            height: 36px;
-            min-width: 36px;
-          }
-
-          button svg {
-            width: 20px;
-            height: 20px;
+          .city-seal-background {
+            background-size: 90vw !important;
           }
         }
 
         @media (max-width: 480px) {
-          .message-content {
-            max-width: 95%;
+          .messages-container {
+            padding: 0.3rem 0.1rem;
           }
-
           .input-area {
-            padding: 0.4rem;
+            padding: 0.3rem 0.1rem;
           }
-
-          input {
-            padding: 0.5rem 0.7rem;
+          .city-seal-background {
+            background-size: 120vw !important;
           }
         }
       `}</style>
