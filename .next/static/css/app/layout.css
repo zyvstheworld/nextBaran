@@ -649,6 +649,9 @@ video {
 .contents {
   display: contents;
 }
+.hidden {
+  display: none;
+}
 .h-8 {
   height: 2rem;
 }
