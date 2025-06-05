@@ -223,6 +223,9 @@ export default function ChatbotPage() {
           background-color: #ffffff;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
           width: 100%;
+          position: sticky;
+          top: 0;
+          z-index: 10;
         }
 
         .logo {
@@ -244,6 +247,7 @@ export default function ChatbotPage() {
           gap: 0.8rem;
           background-color: #f8f9fa;
           width: 100%;
+          -webkit-overflow-scrolling: touch;
         }
 
         .message {
@@ -328,6 +332,9 @@ export default function ChatbotPage() {
           border-top: 1px solid #eaeaea;
           background-color: #ffffff;
           width: 100%;
+          position: sticky;
+          bottom: 0;
+          z-index: 10;
         }
 
         input {
@@ -384,8 +391,20 @@ export default function ChatbotPage() {
         }
 
         @media (max-width: 768px) {
-          header, .messages-container, .input-area {
+          header {
             padding: 0.5rem;
+            height: auto;
+          }
+
+          .messages-container {
+            padding: 0.5rem;
+            gap: 0.5rem;
+            margin-bottom: 60px; /* Space for input area */
+          }
+
+          .input-area {
+            padding: 0.5rem;
+            height: auto;
           }
 
           .city-seal-background {
@@ -395,17 +414,36 @@ export default function ChatbotPage() {
           .message-content {
             max-width: 90%;
             font-size: 0.9rem;
+            padding: 0.6rem 0.8rem;
           }
 
           input {
             padding: 0.6rem 0.8rem;
             font-size: 0.9rem;
+            height: 40px;
+          }
+
+          button {
+            width: 40px;
+            height: 40px;
+            min-width: 40px;
           }
         }
 
         @media (max-width: 480px) {
-          header, .messages-container, .input-area {
+          header {
             padding: 0.3rem;
+          }
+
+          .messages-container {
+            padding: 0.3rem;
+            gap: 0.3rem;
+            margin-bottom: 50px;
+          }
+
+          .input-area {
+            padding: 0.3rem;
+            height: auto;
           }
 
           .city-seal-background {
@@ -414,6 +452,32 @@ export default function ChatbotPage() {
 
           .message-content {
             max-width: 95%;
+            padding: 0.5rem 0.7rem;
+            font-size: 0.85rem;
+          }
+
+          input {
+            padding: 0.5rem 0.7rem;
+            font-size: 0.85rem;
+            height: 36px;
+          }
+
+          button {
+            width: 36px;
+            height: 36px;
+            min-width: 36px;
+          }
+
+          button svg {
+            width: 18px;
+            height: 18px;
+          }
+        }
+
+        /* Fix for iOS Safari 100vh issue */
+        @supports (-webkit-touch-callout: none) {
+          .chat-container {
+            height: -webkit-fill-available;
           }
         }
       `}</style>
